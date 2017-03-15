@@ -8,7 +8,7 @@ function init () {
 	scores= [0,0];
 	activePlayer = 0;
 	roundScore = 0;
-	gamePlaying = true;
+	gamePlaying = false;
 
     document.getElementById('dice-1').style.display = 'none';
 	document.getElementById('dice-2').style.display = 'none';
