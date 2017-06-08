@@ -9,3 +9,7 @@ Steps to run the game:
 2) Open index.html
 
 3) You can refactor the code for better UI
+
+# Demo
+
+https://scrpatlolla.github.io/Pig-Game-JavaScript/index.html
