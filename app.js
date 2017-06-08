@@ -31,7 +31,7 @@ function init () {
 }
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
-
+	console.log("test the click");
 	if(gamePlaying) {
 		var dice = Math.floor(Math.random() * 6) + 1;
         
