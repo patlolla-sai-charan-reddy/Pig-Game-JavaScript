@@ -33,19 +33,19 @@ function init () {
 document.querySelector('.btn-roll').addEventListener('click', function() {
 
 	if(gamePlaying) {
-		//var dice = Math.floor(Math.random() * 6) + 1;
+		var dice = Math.floor(Math.random() * 6) + 1;
         
         var dice1 = Math.floor(Math.random() * 6) + 1;
         var dice2 = Math.floor(Math.random() * 6) + 1;
 		
         
-        //document.querySelector('#current-' + activePlayer).textContent = dice;
+        document.querySelector('#current-' + activePlayer).textContent = dice;
         
-		//var diceDOM = document.querySelector('.dice');
+		var diceDOM = document.querySelector('.dice');
         document.getElementById('dice-1').style.display = 'block';
         document.getElementById('dice-2').style.display = 'block';
-		//diceDOM.style.display = 'block';
-		//diceDOM.src = 'dice-' + dice + '.png';
+		diceDOM.style.display = 'block';
+		diceDOM.src = 'dice-' + dice + '.png';
         document.getElementById('dice-1').src = 'dice-' + dice1 + '.png';
         document.getElementById('dice-2').src = 'dice-' + dice2 + '.png';
 
