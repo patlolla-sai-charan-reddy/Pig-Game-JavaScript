@@ -1,0 +1,36 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+    "mrmlnc.vscode-autoprefixer",
+    "naumovs.color-highlight",
+    "pranaygp.vscode-css-peek",
+    "msjsdiag.debugger-for-chrome",
+    "EditorConfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "abusaidm.html-snippets",
+    "oderwat.indent-rainbow",
+    "Zignd.html-css-class-completion",
+    "DavidAnson.vscode-markdownlint",
+    "PKief.material-icon-theme",
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "2gua.rainbow-brackets",
+    "xabikos.reactsnippets",
+    "glen-84.sass-lint",
+    "mrmlnc.vscode-scss",
+    "joshpeng.sublime-babel-vscode",
+    "wayou.vscode-todo-highlight",
+    "eg2.tslint",
+    "infeng.vscode-react-typescript",
+    "DSKWRK.vscode-generate-getter-setter",
+    "spoonscen.es6-mocha-snippets",
+    "Orta.vscode-jest",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag"
+  ]
+}
